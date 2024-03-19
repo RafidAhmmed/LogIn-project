@@ -1,0 +1,68 @@
+.a {
+    color: darkmagenta;
+    padding: 5px;
+    border: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    color: chocolate;
+    background-color: blueviolet;
+    color: black;
+    padding: 10px;
+    margin: 2px;
+    border: 2px solid black;
+}
+
+.loga {
+    justify-content: center;
+}
+
+.di {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="password"] {
+    color: blue;
+}
+
+input[type="password"]::selection {
+    color: black;
+}
+
+input[type="password"]::placeholder {
+    color: lightblue;
+}
+
+
+.button {
+    color: darkmagenta;
+    padding: 5px;
+    border: 1px dotted black;
+    cursor: pointer;
+}
+
+.b {
+    background-color: azure;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+    padding: 3px;
+    border: 1px;
+}
+
+button:hover {
+    background-color: purple;
+    color: white;
+    padding: 11px 16px;
+}
